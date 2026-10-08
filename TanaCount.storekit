@@ -1,0 +1,32 @@
+{
+  "identifier" : "7C1E2A90",
+  "nonRenewingSubscriptions" : [ ],
+  "products" : [
+    {
+      "displayPrice" : "480",
+      "familyShareable" : false,
+      "internalID" : "6736000001",
+      "localizations" : [
+        {
+          "description" : "CSV書き出しを解放します（買い切り）",
+          "displayName" : "プロ版",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "com.sidebiz.tanacount.pro",
+      "referenceName" : "Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "ja",
+    "_storefront" : "JPN",
+    "_storeKitErrors" : [ ]
+  },
+  "subscriptionGroups" : [ ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

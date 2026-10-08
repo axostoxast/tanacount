@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A326162D0168EB64824789A /* ItemEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F7301820D290C7EF5D4FF8 /* ItemEditView.swift */; };
+		124B344455AE7331650811CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E8B3EA5C9F9E10106DB0AC /* ContentView.swift */; };
+		42B0304AEB0E52793F26C95B /* BarcodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D8AFA0ACF8560F5300988 /* BarcodeScanner.swift */; };
+		522F82BF36C60CE801D55D94 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4D9FE19616F81AA4BBE0B /* Item.swift */; };
+		56DA17E7C2C19F27C7FF4F76 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4389E37CC5EF16094C5BFF /* PaywallView.swift */; };
+		701427D8ED59880E6DDF46A3 /* CSVExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3316E55A4A8F4AF031F383 /* CSVExporter.swift */; };
+		8251F88F57E3A9D18CA416EA /* JAN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B6B30DBE66C1C2EC57734B /* JAN.swift */; };
+		9B196E2DDAAC09841B06465F /* TanaCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8BB8E5A4F3FF97137BC0C /* TanaCountApp.swift */; };
+		A9D6F6A7901F578D1C09AD27 /* TanaCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B8C8037F4A796FBF8A4925 /* TanaCountTests.swift */; };
+		B8F51ED12816252DD791587B /* ProStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D11D449C644EF6D3A976D70 /* ProStore.swift */; };
+		F91D4D74B4768C05500AD557 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992573D2EAC1474CC912724B /* ScanView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCB25C92568EA9E01C99BC85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5827F2BE65E5554019801C4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6971ABB5A860FFEC8444876;
+			remoteInfo = TanaCount;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C8BB8E5A4F3FF97137BC0C /* TanaCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanaCountApp.swift; sourceTree = "<group>"; };
+		0E0D8AFA0ACF8560F5300988 /* BarcodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScanner.swift; sourceTree = "<group>"; };
+		1AFCF4CD72B3A1BA8B66CB31 /* TanaCount.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TanaCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DAFEF5582B459B0CE7DD7CF /* TanaCountTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TanaCountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D4D9FE19616F81AA4BBE0B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		41F7301820D290C7EF5D4FF8 /* ItemEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEditView.swift; sourceTree = "<group>"; };
+		7D11D449C644EF6D3A976D70 /* ProStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProStore.swift; sourceTree = "<group>"; };
+		992573D2EAC1474CC912724B /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		B8B6B30DBE66C1C2EC57734B /* JAN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAN.swift; sourceTree = "<group>"; };
+		BC3316E55A4A8F4AF031F383 /* CSVExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVExporter.swift; sourceTree = "<group>"; };
+		CA4389E37CC5EF16094C5BFF /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		D2E8B3EA5C9F9E10106DB0AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4B8C8037F4A796FBF8A4925 /* TanaCountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanaCountTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		016116E1077EBF1923848F44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E0D8AFA0ACF8560F5300988 /* BarcodeScanner.swift */,
+				D2E8B3EA5C9F9E10106DB0AC /* ContentView.swift */,
+				41F7301820D290C7EF5D4FF8 /* ItemEditView.swift */,
+				CA4389E37CC5EF16094C5BFF /* PaywallView.swift */,
+				992573D2EAC1474CC912724B /* ScanView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27664C898CD6BF32407BCAE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AFCF4CD72B3A1BA8B66CB31 /* TanaCount.app */,
+				1DAFEF5582B459B0CE7DD7CF /* TanaCountTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6896353099C29D27935047BE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BC3316E55A4A8F4AF031F383 /* CSVExporter.swift */,
+				B8B6B30DBE66C1C2EC57734B /* JAN.swift */,
+				7D11D449C644EF6D3A976D70 /* ProStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6EA6257779D8B99B2438B127 /* TanaCount */ = {
+			isa = PBXGroup;
+			children = (
+				04C8BB8E5A4F3FF97137BC0C /* TanaCountApp.swift */,
+				B23475DC5DCF13FCBC6C0009 /* Models */,
+				6896353099C29D27935047BE /* Services */,
+				016116E1077EBF1923848F44 /* Views */,
+			);
+			path = TanaCount;
+			sourceTree = "<group>";
+		};
+		B23475DC5DCF13FCBC6C0009 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41D4D9FE19616F81AA4BBE0B /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EB566F21CE28E1306A7EC911 = {
+			isa = PBXGroup;
+			children = (
+				6EA6257779D8B99B2438B127 /* TanaCount */,
+				FC852AE5325C6AA6DFA544DE /* TanaCountTests */,
+				27664C898CD6BF32407BCAE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC852AE5325C6AA6DFA544DE /* TanaCountTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4B8C8037F4A796FBF8A4925 /* TanaCountTests.swift */,
+			);
+			path = TanaCountTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CA7EBA2B436CA90ABFDAE4D /* TanaCountTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70520BD4AF814B0528BA23BB /* Build configuration list for PBXNativeTarget "TanaCountTests" */;
+			buildPhases = (
+				AE1B58F01352AD886800D9DA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4457A1C70AAACF34CB9BB336 /* PBXTargetDependency */,
+			);
+			name = TanaCountTests;
+			packageProductDependencies = (
+			);
+			productName = TanaCountTests;
+			productReference = 1DAFEF5582B459B0CE7DD7CF /* TanaCountTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6971ABB5A860FFEC8444876 /* TanaCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17467DF7A688793A07700BE2 /* Build configuration list for PBXNativeTarget "TanaCount" */;
+			buildPhases = (
+				89702B4EA467C7002AEEAE11 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TanaCount;
+			packageProductDependencies = (
+			);
+			productName = TanaCount;
+			productReference = 1AFCF4CD72B3A1BA8B66CB31 /* TanaCount.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5827F2BE65E5554019801C4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 1D5FC03E59B350E1C9EB6C83 /* Build configuration list for PBXProject "TanaCount" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EB566F21CE28E1306A7EC911;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 27664C898CD6BF32407BCAE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6971ABB5A860FFEC8444876 /* TanaCount */,
+				6CA7EBA2B436CA90ABFDAE4D /* TanaCountTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89702B4EA467C7002AEEAE11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B0304AEB0E52793F26C95B /* BarcodeScanner.swift in Sources */,
+				701427D8ED59880E6DDF46A3 /* CSVExporter.swift in Sources */,
+				124B344455AE7331650811CF /* ContentView.swift in Sources */,
+				522F82BF36C60CE801D55D94 /* Item.swift in Sources */,
+				0A326162D0168EB64824789A /* ItemEditView.swift in Sources */,
+				8251F88F57E3A9D18CA416EA /* JAN.swift in Sources */,
+				56DA17E7C2C19F27C7FF4F76 /* PaywallView.swift in Sources */,
+				B8F51ED12816252DD791587B /* ProStore.swift in Sources */,
+				F91D4D74B4768C05500AD557 /* ScanView.swift in Sources */,
+				9B196E2DDAAC09841B06465F /* TanaCountApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1B58F01352AD886800D9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D6F6A7901F578D1C09AD27 /* TanaCountTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4457A1C70AAACF34CB9BB336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6971ABB5A860FFEC8444876 /* TanaCount */;
+			targetProxy = CCB25C92568EA9E01C99BC85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		464188A339383F4C0E041056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "棚卸カウンター";
+				INFOPLIST_KEY_NSCameraUsageDescription = "バーコードを読み取って在庫を数えるためにカメラを使います。";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sidebiz.tanacount;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9EFD8FDE3DA4CB06062B393F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sidebiz.TanaCountTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TanaCount.app/TanaCount";
+			};
+			name = Debug;
+		};
+		AD81F0DDF6617484037BC249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sidebiz.TanaCountTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TanaCount.app/TanaCount";
+			};
+			name = Release;
+		};
+		D4BEDDD407AAE636ACCE04DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "棚卸カウンター";
+				INFOPLIST_KEY_NSCameraUsageDescription = "バーコードを読み取って在庫を数えるためにカメラを使います。";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sidebiz.tanacount;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DE3487E6FB0BBBECB86318AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		E476B3EB780F91D98F87090F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17467DF7A688793A07700BE2 /* Build configuration list for PBXNativeTarget "TanaCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BEDDD407AAE636ACCE04DB /* Debug */,
+				464188A339383F4C0E041056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1D5FC03E59B350E1C9EB6C83 /* Build configuration list for PBXProject "TanaCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E476B3EB780F91D98F87090F /* Debug */,
+				DE3487E6FB0BBBECB86318AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		70520BD4AF814B0528BA23BB /* Build configuration list for PBXNativeTarget "TanaCountTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EFD8FDE3DA4CB06062B393F /* Debug */,
+				AD81F0DDF6617484037BC249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5827F2BE65E5554019801C4E /* Project object */;
+}
