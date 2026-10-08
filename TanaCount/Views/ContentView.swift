@@ -67,6 +67,11 @@ struct ContentView: View {
             } message: {
                 Text("品目は残ります。新しい棚卸を始めるときに使います。")
             }
+            #if DEBUG
+            .task {
+                if ScreenshotMode.current == .edit { editingItem = items.first }
+            }
+            #endif
         }
     }
 

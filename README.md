@@ -6,11 +6,14 @@
 ## 構成
 ```
 project.yml            XcodeGenの定義（.xcodeprojはここから生成する）
-TanaCount.storekit     ローカル購入テスト用（プロ版 ¥480 は仮の価格）
+TanaCount.storekit     ローカル購入テスト用（プロ版 ¥480）
 TanaCount/Models       Item（SwiftData）
 TanaCount/Services     JAN正規化・チェックデジット、CSV書き出し（BOM付きUTF-8・CRLF）、ProStore（StoreKit 2）
 TanaCount/Views        一覧、連続スキャン、品目編集、課金画面
 TanaCountTests         Swift Testing
+TanaCount/Debug        スクリーンショット用の起動引数（DEBUGのみ。`-screenshot list|edit` でサンプル品目を表示）
+scripts/make_icon.swift アプリアイコンの生成
+docs/                  プライバシーポリシー、App Store掲載文、スクリーンショット
 ```
 
 ## 開発
@@ -20,6 +23,6 @@ TanaCountTests         Swift Testing
 - カメラ読み取りは実機のみで使える。シミュレータではスキャン画面の手入力欄で確認する（キーボードとして動く外付けスキャナも同じ欄で使える）
 
 ## 未決定・公開前にやること
-- プロ版の価格（仮 ¥480）とApp Store Connectでの商品登録
+- App Store Connectでプロ版（¥480、2026-10-08決定）を商品登録
 - Apple Developer登録（約1.3〜1.5万円、予算超過のため成果物を見て判断）
 - 実機での読み取り確認（無料のApple IDでも7日間は実機で動かせる）

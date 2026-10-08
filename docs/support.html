@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>棚卸カウンター サポート</title>
+<style>
+  :root { color-scheme: light dark; --fg: #1d1d1f; --bg: #fff; --muted: #6e6e73; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #f5f5f7; --bg: #000; --muted: #a1a1a6; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.8 -apple-system, "Hiragino Sans", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.6rem; line-height: 1.4; }
+  h2 { font-size: 1.15rem; margin-top: 2em; }
+  h3 { font-size: 1rem; margin-bottom: .2em; }
+  h3 + p { margin-top: 0; }
+  .muted { color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>棚卸カウンター サポート</h1>
+  <p>JANバーコードを読み取って、小さなお店の在庫を数えるiOSアプリです。</p>
+
+  <h2>よくある質問</h2>
+  <h3>バーコードが読み取れません</h3>
+  <p>読み取れるのはJAN（EAN-13・EAN-8）です。明るい場所で、バーコード全体が画面に入るように少し離してかざしてください。読み取れない場合は、画面下の入力欄に数字を入力しても数えられます。</p>
+
+  <h3>「チェックデジットが合いません」と表示されます</h3>
+  <p>JANの最後の1桁は、前の桁から計算される確認用の数字です。入力した番号が商品のバーコードの数字と一致しているか確認してください。</p>
+
+  <h3>機種変更したらデータは引き継げますか</h3>
+  <p>データは端末内にだけ保存されるため、自動では引き継がれません。プロ版のCSV書き出しで記録を残しておくことをおすすめします。</p>
+
+  <h3>プロ版を購入したのにCSV書き出しが使えません</h3>
+  <p>メニューの「プロ版について」から「購入を復元」を押してください。購入時と同じApple IDでサインインしている必要があります。</p>
+
+  <h2>お問い合わせ</h2>
+  <p>メール: <a href="mailto:tanacount.support@gmail.com">tanacount.support@gmail.com</a></p>
+  <p class="muted">返信までお時間をいただく場合があります。</p>
+
+  <p><a href="privacy.html">プライバシーポリシー</a></p>
+</main>
+</body>
+</html>

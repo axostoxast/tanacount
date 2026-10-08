@@ -17,6 +17,7 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.sidebiz.tanacount
         GENERATE_INFOPLIST_FILE: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         INFOPLIST_KEY_CFBundleDisplayName: 棚卸カウンター
         INFOPLIST_KEY_NSCameraUsageDescription: バーコードを読み取って在庫を数えるためにカメラを使います。
         INFOPLIST_KEY_UILaunchScreen_Generation: YES

@@ -12,11 +12,13 @@
 		42B0304AEB0E52793F26C95B /* BarcodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D8AFA0ACF8560F5300988 /* BarcodeScanner.swift */; };
 		522F82BF36C60CE801D55D94 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4D9FE19616F81AA4BBE0B /* Item.swift */; };
 		56DA17E7C2C19F27C7FF4F76 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4389E37CC5EF16094C5BFF /* PaywallView.swift */; };
+		64FE953B72307A6C4E15BC4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BBF79726CC25A8FCD29D82 /* Assets.xcassets */; };
 		701427D8ED59880E6DDF46A3 /* CSVExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3316E55A4A8F4AF031F383 /* CSVExporter.swift */; };
 		8251F88F57E3A9D18CA416EA /* JAN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B6B30DBE66C1C2EC57734B /* JAN.swift */; };
 		9B196E2DDAAC09841B06465F /* TanaCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8BB8E5A4F3FF97137BC0C /* TanaCountApp.swift */; };
 		A9D6F6A7901F578D1C09AD27 /* TanaCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B8C8037F4A796FBF8A4925 /* TanaCountTests.swift */; };
 		B8F51ED12816252DD791587B /* ProStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D11D449C644EF6D3A976D70 /* ProStore.swift */; };
+		E35B42B488AE39ADA97F7352 /* ScreenshotMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBA2151A93677BC7CAAEE7 /* ScreenshotMode.swift */; };
 		F91D4D74B4768C05500AD557 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992573D2EAC1474CC912724B /* ScanView.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,10 +35,12 @@
 /* Begin PBXFileReference section */
 		04C8BB8E5A4F3FF97137BC0C /* TanaCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanaCountApp.swift; sourceTree = "<group>"; };
 		0E0D8AFA0ACF8560F5300988 /* BarcodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScanner.swift; sourceTree = "<group>"; };
+		12BBF79726CC25A8FCD29D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AFCF4CD72B3A1BA8B66CB31 /* TanaCount.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TanaCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DAFEF5582B459B0CE7DD7CF /* TanaCountTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TanaCountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D4D9FE19616F81AA4BBE0B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		41F7301820D290C7EF5D4FF8 /* ItemEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEditView.swift; sourceTree = "<group>"; };
+		7CBBA2151A93677BC7CAAEE7 /* ScreenshotMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotMode.swift; sourceTree = "<group>"; };
 		7D11D449C644EF6D3A976D70 /* ProStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProStore.swift; sourceTree = "<group>"; };
 		992573D2EAC1474CC912724B /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 		B8B6B30DBE66C1C2EC57734B /* JAN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAN.swift; sourceTree = "<group>"; };
@@ -81,7 +85,9 @@
 		6EA6257779D8B99B2438B127 /* TanaCount */ = {
 			isa = PBXGroup;
 			children = (
+				12BBF79726CC25A8FCD29D82 /* Assets.xcassets */,
 				04C8BB8E5A4F3FF97137BC0C /* TanaCountApp.swift */,
+				D1118ABE228D5B43E0C1507F /* Debug */,
 				B23475DC5DCF13FCBC6C0009 /* Models */,
 				6896353099C29D27935047BE /* Services */,
 				016116E1077EBF1923848F44 /* Views */,
@@ -95,6 +101,14 @@
 				41D4D9FE19616F81AA4BBE0B /* Item.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D1118ABE228D5B43E0C1507F /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				7CBBA2151A93677BC7CAAEE7 /* ScreenshotMode.swift */,
+			);
+			path = Debug;
 			sourceTree = "<group>";
 		};
 		EB566F21CE28E1306A7EC911 = {
@@ -140,6 +154,7 @@
 			buildConfigurationList = 17467DF7A688793A07700BE2 /* Build configuration list for PBXNativeTarget "TanaCount" */;
 			buildPhases = (
 				89702B4EA467C7002AEEAE11 /* Sources */,
+				6CB6E320B338EF260A5BACB3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -183,6 +198,17 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		6CB6E320B338EF260A5BACB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FE953B72307A6C4E15BC4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89702B4EA467C7002AEEAE11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -197,6 +223,7 @@
 				56DA17E7C2C19F27C7FF4F76 /* PaywallView.swift in Sources */,
 				B8F51ED12816252DD791587B /* ProStore.swift in Sources */,
 				F91D4D74B4768C05500AD557 /* ScanView.swift in Sources */,
+				E35B42B488AE39ADA97F7352 /* ScreenshotMode.swift in Sources */,
 				9B196E2DDAAC09841B06465F /* TanaCountApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
