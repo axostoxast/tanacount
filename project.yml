@@ -23,6 +23,7 @@ targets:
         INFOPLIST_KEY_CFBundleDisplayName: 棚卸カウンター
         INFOPLIST_KEY_NSCameraUsageDescription: バーコードを読み取って在庫を数えるためにカメラを使います。
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
         INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
         TARGETED_DEVICE_FAMILY: "1"
     scheme:
