@@ -9,6 +9,7 @@ final class ProStore {
     static let productID = "com.sidebiz.tanacount.pro"
 
     private(set) var product: Product?
+    private(set) var isLoadingProduct = false
     private(set) var isPro = false
     private(set) var isPurchasing = false
     var errorMessage: String?
@@ -26,10 +27,15 @@ final class ProStore {
     }
 
     func load() async {
+        guard !isLoadingProduct else { return }
+        isLoadingProduct = true
+        defer { isLoadingProduct = false }
         do {
             product = try await Product.products(for: [Self.productID]).first
+            // 通信は成功しても商品が返らないことがある（未配信の国、反映待ちなど）
+            errorMessage = product == nil ? "商品情報を取得できませんでした。時間をおいて再読み込みしてください" : nil
         } catch {
-            errorMessage = "商品情報を取得できませんでした"
+            errorMessage = "商品情報を取得できませんでした。通信状況を確認して再読み込みしてください"
         }
         await refreshEntitlements()
     }
